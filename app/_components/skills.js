@@ -17,7 +17,8 @@ export default function Skills() {
         Frontend:
         <span className="text-sm font-medium">
           {' '}
-          HTML, CSS, SASS/SCSS, React, NextJs, TailwindCSS, Angular
+          HTML, CSS, SASS/SCSS, React, NextJs, TailwindCSS, Shadcn, Angular,
+          Shadcn
         </span>
       </div>
 
@@ -26,7 +27,7 @@ export default function Skills() {
         <span className="text-sm font-medium">
           {' '}
           NodeJs, ExpressJs, NestJs, Django, Firebase, Supabase, MongoDB,
-          PostgreSQL
+          PostgreSQL, Spring
         </span>
       </div>
 
@@ -34,7 +35,7 @@ export default function Skills() {
         Tools:
         <span className="text-sm font-medium">
           {' '}
-          Git, Gulp, Webpack, Postman
+          Git, Gulp, Webpack, Postman, Docker
         </span>
       </div>
     </div>

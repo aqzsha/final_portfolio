@@ -5,40 +5,94 @@ import ProjectItem from './projectItem';
 export default function Projects() {
   const projects = [
     {
-      title: 'Canva Clone',
+      title: 'AqzshaStore - ongoing...',
       description:
-        'The Canva Clone is an online design tool for creating visuals with drag-and-drop simplicity. It features customizable templates, text/image editing, and easy exporting.',
-      tags: ['NextJS', 'ReactJS', 'PostgreSQL', 'TailwindCSS', 'NextAuth'],
-      link: 'https://yuru-camp-psi.vercel.app/',
-    },
-    {
-      title: 'Yuru Camp App',
-      description:
-        'Yuru Camp App allows users to easily find and reserve campsites. It offers campsite details, availability, and quick booking options.',
-      tags: ['NextJS', 'Supabase', 'TailwindCSS', 'NextAuth', 'React Query'],
-      link: 'https://yuru-camp-psi.vercel.app/',
-    },
-    {
-      title: 'Online Cinema App',
-      description:
-        'The Online Cinema App allows users to watch movies and TV shows on demand. It offers a vast library of content, personalized recommendations, and an easy-to-use interface for seamless streaming.',
+        'AqzshaStore is an app that offers users a convenient way to browse, purchase, and manage products online. ',
       tags: [
-        'NextJs',
-        'ReactJs',
+        'NextJS 15',
         'TailwindCSS',
-        'NestJs',
+        'PostgreSQL',
+        'Shadcn',
         'TypeScript',
-        'MongoDB',
-        'TanStack Query',
-        'Redux',
+        'Prisma',
+        'Zod',
+        'React Hook Form',
+        'Jest',
       ],
-      link: 'https://yuru-camp-psi.vercel.app/',
+      link: 'https://github.com/aqzsha/aqzshaStore',
+    },
+    {
+      title: 'AqzshaCinema - ongoing...',
+      description:
+        'AqzshaCinema is an app that allows users to explore and discover movies effortlessly.',
+      tags: [
+        'NestJs',
+        'MongoDB',
+        'Passport.js',
+        'TypeScript',
+        'NextJs',
+        'TailwindCSS',
+        'Redux Toolkit',
+        'TanStack Query',
+      ],
+      link: 'https://github.com/aqzsha/aqzshaCinema',
+    },
+    {
+      title: 'AqzshaShop',
+      description:
+        'AqzshaShop is an app designed to provide users with a seamless shopping experience.',
+      tags: [
+        'NextJS',
+        'TailwindCSS',
+        'Redux Toolkit',
+        'NodeJs/ExpressJs',
+        'MongoDB',
+        'JavaScript',
+      ],
+      link: 'https://github.com/aqzsha/aqzshaShop',
+    },
+    {
+      title: 'AqzshaEstate',
+      description:
+        'AqzshaShop is an app designed to provide users with a seamless shopping experience.',
+      tags: ['NextJS', 'NextAuth', 'MongoDB', 'JavaScript'],
+      link: 'AqzshaEstate is an app designed to help users easily find, buy, rent, or sell properties.',
+    },
+    {
+      title: 'React Quiz App',
+      description:
+        'React Quiz App is a dynamic web application built with React that allows users to take quizzes, displaying questions and multiple-choice answers.',
+      tags: ['ReactJS', 'TailwindCSS', 'JavaScript'],
+      link: 'https://github.com/aqzsha/react_quiz',
+    },
+
+    {
+      title: 'Jattigu',
+      description: 'Jattigu is a app that contains exercises',
+      tags: ['NextJs', 'Redux', 'Tailwind', 'Django', 'DRF', 'SQLite'],
+      link: 'https://github.com/aqzsha/Jattigu_jasayiq',
+    },
+
+    {
+      title: '2FIT',
+      description:
+        '2FIT is a subscription service for various sports, allowing users to visit different gyms.',
+      tags: [
+        'Angular',
+        'RxJS',
+        'Tailwind',
+        'Django',
+        'DRF',
+        'SQLite',
+        'TypeScript',
+      ],
+      link: 'https://github.com/aqzsha/ResilienceRealmWeb',
     },
     {
       title: '55 HTML+CSS+JS Projects App',
       description: 'Just 55 HTML+CSS+JS projects',
       tags: ['HTML', 'CSS', 'SASS', 'JavaScript'],
-      link: 'https://yuru-camp-psi.vercel.app/',
+      link: 'https://github.com/xxkernel/55_html',
     },
   ];
 
