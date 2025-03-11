@@ -54,9 +54,9 @@ export default function Projects() {
     {
       title: 'AqzshaEstate',
       description:
-        'AqzshaShop is an app designed to provide users with a seamless shopping experience.',
+        'AqzshaEstate is an app designed to help users easily find, buy, rent, or sell properties.',
       tags: ['NextJS', 'NextAuth', 'MongoDB', 'JavaScript'],
-      link: 'AqzshaEstate is an app designed to help users easily find, buy, rent, or sell properties.',
+      link: 'https://github.com/aqzsha/aqzshaEstate',
     },
     {
       title: 'React Quiz App',
