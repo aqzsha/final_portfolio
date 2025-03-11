@@ -12,7 +12,7 @@ export default function HomePage() {
           src={bg}
           alt="bg"
           fill
-          style={{ objectFit: 'cover' }} // Ensures the image covers the container
+          style={{ objectFit: 'cover' }}
         />
       </div>
       <p className="mb-4">
@@ -24,12 +24,13 @@ export default function HomePage() {
         </Link>
       </p>
       <div className="flex flex-row space-x-4">
-        <Link
-          href="/resume"
+        <a
+          href="/resume.pdf"
+          download="Akzhol_Tasbay_Resume.pdf"
           className="text-blue-500 hover:underline"
         >
           Resume
-        </Link>
+        </a>
         <Link
           href="/portfolio"
           className="text-blue-500 hover:underline"
