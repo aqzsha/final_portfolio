@@ -8,13 +8,13 @@ export default function Education() {
         <div>
           <h2>Kazakh-British Technical University, Kazakhstan </h2>
           <p className="text-gray-500">
-            Computer Science and Software Engineering, GPA: 3.47
+            Computer Science and Software Engineering, GPA: 3.4
           </p>
           <p className="ml-8 text-base font-semibold">
             Courses:{' '}
             <span className="text-sm font-normal text-gray-700">
               PP1(A*), PP2(A*), DSA(A*), DBMS(A-), OOP(A-), WebDev(A*), ICPC
-              1(A*)
+              1(A-*), Django/Adv Django(B+), Spring(A-*), OS(A*), SFE(A*)
             </span>
           </p>
           <p className="ml-8 text-base font-semibold">
